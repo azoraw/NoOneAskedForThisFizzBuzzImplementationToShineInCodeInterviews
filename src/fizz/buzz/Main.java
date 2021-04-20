@@ -10,7 +10,9 @@ public class Main {
         transformations.add(new Transformation(3, "fizz"));
         transformations.add(new Transformation(5, "buzz"));
 
-        FizzBuzz fizzBuzz = new FizzBuzz(transformations, 100);
+        int numberOfIteration = 100;
+
+        FizzBuzz fizzBuzz = new FizzBuzz(transformations, numberOfIteration);
         fizzBuzz.run();
 
     }
